@@ -6,6 +6,8 @@ rss = "A short description of the page which would serve as **blurb** in a `RSS`
 +++
 @def tags = ["syntax", "code"]
 
+{{redirect bar/foo/baz.html}}
+
 # Working with code blocks
 
 \toc
