@@ -45,7 +45,7 @@ function hfun_blogposts()
             <a href="/$(pagename)/">$(title)</a>
           </span>
           <span class="tocdate">
-            $(month(date)), $(year(date))
+            $(monthabbr(date)), $(year(date))
           </span>
         </p>"""
         write(io, """$k\n""")
